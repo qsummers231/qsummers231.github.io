@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CodeQuest | Learn JavaScript & CSS</title>
   <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
 </head>
 <body>
   <header>
@@ -35,6 +36,11 @@
         <li>Mini-Games and Real-Time Feedback</li>
         <li>Learn at Your Own Pace</li>
       </ul>
+    </section>
+    <section class="joke-section">
+      <h2>Need a Laugh While You Code?</h2>
+      <div id="jokeContainer">Click the button to fetch a programming joke!</div>
+      <button onclick="fetchJoke()">Get a Joke</button>
     </section>
   </main>
   <footer>
